@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Expanse Tracker</title>
+    </head>
+    <body>
+        <div class="container">
+        <h1>Expense Tracker</h1>
+        <div class="label"><label for="Salary">Salary</label>
+        <input type="number" id="Salary" min="0">
+        <br>
+        <label for="Expense">Expense</label>
+        <input type="number" id="Expense" min="0">
+        <br>
+        <label for="Date">Date of Expense</label>
+        <input type="date" id="Date">
+        <br><br>
+        <input type="submit">
+        <br><br>
+        <input type="reset" >
+    </div>
+    <div class="expenses">
+    <table>
+        <h1>Expenses List</h1>
+        <thead>
+            <tr>
+                <th>Salary</th>
+                <th>Expense</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody id="expensetable">
+            
+        </tbody>
+        <tfoot>
+           
+            <tr>
+                <td>
+                    <td>Total Salary</td>
+                    <td id="totalsalary"></td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <td>Total Expense</td>
+                    <td id="totalexpense"></td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <td>Total Balance
+                    </td>
+                    <td id="totalbalance"></td>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+</div>
+<script src="script.js"></script>
+    </body>
+</html>

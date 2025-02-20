@@ -1,0 +1,33 @@
+body{
+    background-image: url(mainbg_upscaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin-top: 250px;
+    width: 100%;
+    max-width: 500px;
+    margin:  250px auto auto;
+    height: max-content;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+.container label{
+    display: block;
+    font-size: larger;
+    margin-bottom: 10px;
+
+}
+table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th,td{
+    text-align: center;
+}
+th{
+    text-align: center;
+}
